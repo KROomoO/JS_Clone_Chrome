@@ -1,13 +1,18 @@
 const images = [
-    "0.jpeg",
-    "1.jpeg",
-    "2.jpeg"
+    "0.jpg",
+    "1.jpg",
+    "2.jpg"
 ];
+
+const body = document.querySelector("body");
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
-const backgroundImage = document.createElement("img");
+document.addEventListener("DOMContentLoaded", paintImage);
 
-backgroundImage.src = `img/${chosenImage}`;
-
-document.body.appendChild(backgroundImage);
+function paintImage() {
+    const backgroundImage = `url(img/${chosenImage})`
+    backgroundImage.src = chosenImage;
+    
+    body.style.backgroundImage = backgroundImage;
+}
