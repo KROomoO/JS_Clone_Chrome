@@ -9,7 +9,7 @@
 
 
 
-### Version 1.0.2 기능 추가
+### Version 1.0.1 기능 추가
 1. 현재 위치 날씨 CSS 개선(openweatherapp API 사용)
 2. 전체 CSS 개선
 
