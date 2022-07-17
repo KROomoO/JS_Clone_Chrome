@@ -1,7 +1,7 @@
 body {
-    width: 100vw;
-    height: 100vw;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-size: auto;
 }
 
 ul {
@@ -20,6 +20,10 @@ ul {
     color: white;
 }
 
+#weather span {
+    display: inline;
+}
+
 #weather img {
     float: left;
 }
@@ -36,7 +40,7 @@ ul {
 
 #middle {
     width: 100%;
-    height: 200px;
+    height: 100px;
     text-align: center;
 }
 
@@ -55,7 +59,37 @@ ul {
     color: white;
 }
 
+#todoSection {
+    text-align: center;
+    width: auto;
+}
+
+#todo-form input {
+    text-align: center;
+    width: 250px;
+    font-size: 1em;
+    height: 30px;
+}
+
+#todo-list {
+    padding-left: 45%;
+    width: auto;
+    text-align: left;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    
+}
+
 #quote {
+    display: grid;
+    text-align: center;
+    font-size: 1.5em;
     color: white;
 }
 
